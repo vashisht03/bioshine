@@ -291,7 +291,7 @@ footer .col-md-3:last-child p{
 	border: 1px solid #dbdbdb !important;
 }
 .mobile-bottom {
-    display: none;
+    display: none !important;
 }
 
 /* ///////media query\\\\\\\\\\\\\\\\\\\ */
@@ -459,7 +459,7 @@ footer .col-md-3:last-child p{
 
 @media only screen and (max-width:500px){
     .formobile{
-        display: block;
+        display: block !important;
       }
       .forweb{
         display: none !important;
