@@ -100,6 +100,9 @@ header .navbar-light .navbar-nav .nav-link.active,header .navbar-light .navbar-n
     height:800px;
     overflow: hidden;
   }
+  .formobile{
+    display: none;
+  }
 
   /* division  */
   .division img {
@@ -452,4 +455,13 @@ footer .col-md-3:last-child p{
     h5 {
         font-size: 19px;
     }
+}
+
+@media only screen and (max-width:500px){
+    .formobile{
+        display: block;
+      }
+      .forweb{
+        display: none !important;
+      }
 }
